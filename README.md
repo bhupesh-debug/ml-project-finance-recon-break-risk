@@ -2,7 +2,8 @@
 ### A Governed Machine Learning & AI Proof of Concept for the CFO Organization
 **Target Organization:** DTCC CFO Organization / Financial Operations  
 **Author:** Bhupesh Chandra Dimri | October 2026  
-**Target Role:** Finance Analytics & Innovation Associate (Jersey City, NJ | Job ID 214537)
+**Target Role:** Finance Analytics & Innovation Associate (Jersey City, NJ | Job ID 214537)  
+**GitHub Repository:** [https://github.com/bhupesh-debug/ml-project-finance-recon-break-risk](https://github.com/bhupesh-debug/ml-project-finance-recon-break-risk)
 
 ---
 
