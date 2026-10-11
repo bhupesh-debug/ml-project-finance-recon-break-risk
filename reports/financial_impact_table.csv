@@ -1,0 +1,4 @@
+Scenario,Total Annual Breaks,Incremental Breaks Caught,Analyst Hours Saved,Direct Labor Savings ($),Avoided Risk & Late Penalties ($),Total Gross Benefits ($),Year 1 Total Investment ($),Year 1 Net Benefit ($),Year 1 ROI (%),3-Year NPV ($),Payback Period (Months)
+Conservative,7800,624,1092.0,76440.0,37440.0,113880.0,120000.0,-6120.0,-5.1,102510.44,13.1
+Base Case,8760,1138,2234.0,189873.0,136656.0,326529.0,103000.0,223529.0,217.0,678567.22,2.7
+Upside,9600,1632,3840.0,364800.0,293760.0,658560.0,87000.0,571560.0,657.0,1559705.89,1.1

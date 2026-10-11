@@ -1,0 +1,45 @@
+{
+  "n_total": 30000,
+  "n_train": 24000,
+  "n_test": 6000,
+  "train_date_range": [
+    "2026-01-01 00:00:00",
+    "2026-10-19 00:00:00"
+  ],
+  "test_date_range": [
+    "2026-10-19 00:00:00",
+    "2026-12-31 00:00:00"
+  ],
+  "train_break_prevalence": 0.07070833333333333,
+  "test_break_prevalence": 0.07883333333333334,
+  "source_system_medians": {
+    "Billing": 3.0,
+    "ERP": 1.0,
+    "Payroll": 2.0,
+    "Treasury": 2.0
+  },
+  "pre_close_features": [
+    "entity",
+    "account_cat",
+    "source_system",
+    "is_manual_entry",
+    "mapping_version_age_days",
+    "posting_lag_days",
+    "days_to_period_end",
+    "prior_breaks_30d",
+    "vendor_dup_flag",
+    "amount_gl",
+    "log_amount_gl",
+    "is_close_window",
+    "close_manual_interaction",
+    "mapping_stale_flag",
+    "mapping_very_stale_flag",
+    "posting_lag_ratio",
+    "high_prior_breaks_flag"
+  ],
+  "post_recon_fields": [
+    "abs_diff",
+    "pct_diff",
+    "break_type"
+  ]
+}

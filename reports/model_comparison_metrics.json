@@ -1,0 +1,312 @@
+{
+  "Analyst Heuristic (3 rules)": {
+    "metrics": {
+      "Model": "Analyst Heuristic (3 rules)",
+      "PR-AUC": 0.17930141997776758,
+      "ROC-AUC": 0.7106602567216636,
+      "Brier Score": 0.12939461310397093,
+      "Top 10% Capture": 0.21775898520084566,
+      "Top 10% Breaks Found": 103,
+      "Top 10% Precision": 0.17166666666666666,
+      "Top 10% Lift": 2.1775898520084565,
+      "Top 5% Capture": 0.13530655391120508,
+      "Top 20% Capture": 0.4630021141649049,
+      "Top 30% Capture": 0.5813953488372093
+    },
+    "capacities": {
+      "top_5pct": {
+        "capacity": 0.05,
+        "items_reviewed": 300,
+        "breaks_captured": 64,
+        "total_breaks": 473,
+        "recall": 0.13530655391120508,
+        "precision": 0.21333333333333335,
+        "lift": 2.7061310782241015
+      },
+      "top_10pct": {
+        "capacity": 0.1,
+        "items_reviewed": 600,
+        "breaks_captured": 103,
+        "total_breaks": 473,
+        "recall": 0.21775898520084566,
+        "precision": 0.17166666666666666,
+        "lift": 2.1775898520084565
+      },
+      "top_15pct": {
+        "capacity": 0.15,
+        "items_reviewed": 900,
+        "breaks_captured": 171,
+        "total_breaks": 473,
+        "recall": 0.36152219873150104,
+        "precision": 0.19,
+        "lift": 2.41014799154334
+      },
+      "top_20pct": {
+        "capacity": 0.2,
+        "items_reviewed": 1200,
+        "breaks_captured": 219,
+        "total_breaks": 473,
+        "recall": 0.4630021141649049,
+        "precision": 0.1825,
+        "lift": 2.315010570824524
+      },
+      "top_30pct": {
+        "capacity": 0.3,
+        "items_reviewed": 1800,
+        "breaks_captured": 275,
+        "total_breaks": 473,
+        "recall": 0.5813953488372093,
+        "precision": 0.1527777777777778,
+        "lift": 1.9379844961240311
+      }
+    }
+  },
+  "Logistic Regression": {
+    "metrics": {
+      "Model": "Logistic Regression",
+      "PR-AUC": 0.25066631830823116,
+      "ROC-AUC": 0.7467588478776684,
+      "Brier Score": 0.20728296158573464,
+      "Top 10% Capture": 0.33192389006342493,
+      "Top 10% Breaks Found": 157,
+      "Top 10% Precision": 0.26166666666666666,
+      "Top 10% Lift": 3.3192389006342493,
+      "Top 5% Capture": 0.2219873150105708,
+      "Top 20% Capture": 0.492600422832981,
+      "Top 30% Capture": 0.6152219873150105
+    },
+    "capacities": {
+      "top_5pct": {
+        "capacity": 0.05,
+        "items_reviewed": 300,
+        "breaks_captured": 105,
+        "total_breaks": 473,
+        "recall": 0.2219873150105708,
+        "precision": 0.35,
+        "lift": 4.439746300211416
+      },
+      "top_10pct": {
+        "capacity": 0.1,
+        "items_reviewed": 600,
+        "breaks_captured": 157,
+        "total_breaks": 473,
+        "recall": 0.33192389006342493,
+        "precision": 0.26166666666666666,
+        "lift": 3.3192389006342493
+      },
+      "top_15pct": {
+        "capacity": 0.15,
+        "items_reviewed": 900,
+        "breaks_captured": 195,
+        "total_breaks": 473,
+        "recall": 0.41226215644820297,
+        "precision": 0.21666666666666667,
+        "lift": 2.748414376321353
+      },
+      "top_20pct": {
+        "capacity": 0.2,
+        "items_reviewed": 1200,
+        "breaks_captured": 233,
+        "total_breaks": 473,
+        "recall": 0.492600422832981,
+        "precision": 0.19416666666666665,
+        "lift": 2.4630021141649046
+      },
+      "top_30pct": {
+        "capacity": 0.3,
+        "items_reviewed": 1800,
+        "breaks_captured": 291,
+        "total_breaks": 473,
+        "recall": 0.6152219873150105,
+        "precision": 0.16166666666666665,
+        "lift": 2.0507399577167016
+      }
+    }
+  },
+  "Random Forest": {
+    "metrics": {
+      "Model": "Random Forest",
+      "PR-AUC": 0.2365068034303723,
+      "ROC-AUC": 0.7463864687325836,
+      "Brier Score": 0.20256014852594922,
+      "Top 10% Capture": 0.30655391120507397,
+      "Top 10% Breaks Found": 145,
+      "Top 10% Precision": 0.24166666666666667,
+      "Top 10% Lift": 3.0655391120507396,
+      "Top 5% Capture": 0.21775898520084566,
+      "Top 20% Capture": 0.4904862579281184,
+      "Top 30% Capture": 0.6363636363636364
+    },
+    "capacities": {
+      "top_5pct": {
+        "capacity": 0.05,
+        "items_reviewed": 300,
+        "breaks_captured": 103,
+        "total_breaks": 473,
+        "recall": 0.21775898520084566,
+        "precision": 0.3433333333333333,
+        "lift": 4.355179704016913
+      },
+      "top_10pct": {
+        "capacity": 0.1,
+        "items_reviewed": 600,
+        "breaks_captured": 145,
+        "total_breaks": 473,
+        "recall": 0.30655391120507397,
+        "precision": 0.24166666666666667,
+        "lift": 3.0655391120507396
+      },
+      "top_15pct": {
+        "capacity": 0.15,
+        "items_reviewed": 900,
+        "breaks_captured": 192,
+        "total_breaks": 473,
+        "recall": 0.4059196617336152,
+        "precision": 0.21333333333333335,
+        "lift": 2.7061310782241015
+      },
+      "top_20pct": {
+        "capacity": 0.2,
+        "items_reviewed": 1200,
+        "breaks_captured": 232,
+        "total_breaks": 473,
+        "recall": 0.4904862579281184,
+        "precision": 0.19333333333333333,
+        "lift": 2.4524312896405918
+      },
+      "top_30pct": {
+        "capacity": 0.3,
+        "items_reviewed": 1800,
+        "breaks_captured": 301,
+        "total_breaks": 473,
+        "recall": 0.6363636363636364,
+        "precision": 0.16722222222222222,
+        "lift": 2.121212121212121
+      }
+    }
+  },
+  "Gradient Boosting": {
+    "metrics": {
+      "Model": "Gradient Boosting",
+      "PR-AUC": 0.20840011491584048,
+      "ROC-AUC": 0.7311835689566996,
+      "Brier Score": 0.19571996625559168,
+      "Top 10% Capture": 0.2938689217758985,
+      "Top 10% Breaks Found": 139,
+      "Top 10% Precision": 0.23166666666666666,
+      "Top 10% Lift": 2.9386892177589847,
+      "Top 5% Capture": 0.18604651162790697,
+      "Top 20% Capture": 0.4904862579281184,
+      "Top 30% Capture": 0.6004228329809725
+    },
+    "capacities": {
+      "top_5pct": {
+        "capacity": 0.05,
+        "items_reviewed": 300,
+        "breaks_captured": 88,
+        "total_breaks": 473,
+        "recall": 0.18604651162790697,
+        "precision": 0.29333333333333333,
+        "lift": 3.7209302325581395
+      },
+      "top_10pct": {
+        "capacity": 0.1,
+        "items_reviewed": 600,
+        "breaks_captured": 139,
+        "total_breaks": 473,
+        "recall": 0.2938689217758985,
+        "precision": 0.23166666666666666,
+        "lift": 2.9386892177589847
+      },
+      "top_15pct": {
+        "capacity": 0.15,
+        "items_reviewed": 900,
+        "breaks_captured": 192,
+        "total_breaks": 473,
+        "recall": 0.4059196617336152,
+        "precision": 0.21333333333333335,
+        "lift": 2.7061310782241015
+      },
+      "top_20pct": {
+        "capacity": 0.2,
+        "items_reviewed": 1200,
+        "breaks_captured": 232,
+        "total_breaks": 473,
+        "recall": 0.4904862579281184,
+        "precision": 0.19333333333333333,
+        "lift": 2.4524312896405918
+      },
+      "top_30pct": {
+        "capacity": 0.3,
+        "items_reviewed": 1800,
+        "breaks_captured": 284,
+        "total_breaks": 473,
+        "recall": 0.6004228329809725,
+        "precision": 0.15777777777777777,
+        "lift": 2.001409443269908
+      }
+    }
+  },
+  "Random Ranking": {
+    "metrics": {
+      "Model": "Random Ranking",
+      "PR-AUC": 0.07904995217700705,
+      "ROC-AUC": 0.5046179221664472,
+      "Brier Score": 0.3307152549312284,
+      "Top 10% Capture": 0.09725158562367865,
+      "Top 10% Breaks Found": 46,
+      "Top 10% Precision": 0.07666666666666666,
+      "Top 10% Lift": 0.9725158562367864,
+      "Top 5% Capture": 0.04439746300211417,
+      "Top 20% Capture": 0.18604651162790697,
+      "Top 30% Capture": 0.3044397463002114
+    },
+    "capacities": {
+      "top_5pct": {
+        "capacity": 0.05,
+        "items_reviewed": 300,
+        "breaks_captured": 21,
+        "total_breaks": 473,
+        "recall": 0.04439746300211417,
+        "precision": 0.07,
+        "lift": 0.8879492600422834
+      },
+      "top_10pct": {
+        "capacity": 0.1,
+        "items_reviewed": 600,
+        "breaks_captured": 46,
+        "total_breaks": 473,
+        "recall": 0.09725158562367865,
+        "precision": 0.07666666666666666,
+        "lift": 0.9725158562367864
+      },
+      "top_15pct": {
+        "capacity": 0.15,
+        "items_reviewed": 900,
+        "breaks_captured": 67,
+        "total_breaks": 473,
+        "recall": 0.1416490486257928,
+        "precision": 0.07444444444444444,
+        "lift": 0.9443269908386186
+      },
+      "top_20pct": {
+        "capacity": 0.2,
+        "items_reviewed": 1200,
+        "breaks_captured": 88,
+        "total_breaks": 473,
+        "recall": 0.18604651162790697,
+        "precision": 0.07333333333333333,
+        "lift": 0.9302325581395349
+      },
+      "top_30pct": {
+        "capacity": 0.3,
+        "items_reviewed": 1800,
+        "breaks_captured": 144,
+        "total_breaks": 473,
+        "recall": 0.3044397463002114,
+        "precision": 0.08,
+        "lift": 1.014799154334038
+      }
+    }
+  }
+}

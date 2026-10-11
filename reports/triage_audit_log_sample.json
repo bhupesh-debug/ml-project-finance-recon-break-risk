@@ -1,0 +1,358 @@
+[
+  {
+    "transaction_id": "TXN-024065",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 7197.73,
+    "abs_diff": 1603.51,
+    "explanation": "Item TXN-024065 (Data Svcs / Payroll): Classified as MAPPING_ERROR. Account mapping table version is 99 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 99 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024064",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 27860.94,
+    "abs_diff": 1720.76,
+    "explanation": "Item TXN-024064 (Clearing / Payroll): Classified as MAPPING_ERROR. Account mapping table version is 171 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 171 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024088",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 30018.03,
+    "abs_diff": 4071.71,
+    "explanation": "Item TXN-024088 (Clearing / Vendor): Classified as MAPPING_ERROR. Account mapping table version is 93 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 93 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024084",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 722.43,
+    "abs_diff": 722.43,
+    "explanation": "Item TXN-024084 (Data Svcs / Payroll): Classified as MAPPING_ERROR. Account mapping table version is 95 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 95 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024054",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 19307.55,
+    "abs_diff": 837.16,
+    "explanation": "Item TXN-024054 (Clearing / Intercompany): Classified as MAPPING_ERROR. Account mapping table version is 164 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 164 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024008",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 2028.31,
+    "abs_diff": 388.08,
+    "explanation": "Item TXN-024008 (Corp / Accruals): Classified as MAPPING_ERROR. Account mapping table version is 174 days old (exceeds 90-day governance refresh SLA). Manual journal booking compounded mapping discrepancy.",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 174 days old (exceeds 90-day governance refresh SLA).",
+      "Manual journal booking compounded mapping discrepancy."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024156",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 5018.65,
+    "abs_diff": 2447.61,
+    "explanation": "Item TXN-024156 (Corp / Fees): Classified as MAPPING_ERROR. Account mapping table version is 139 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 139 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024186",
+    "break_type": "timing",
+    "priority": "LOW",
+    "amount_gl": 111366.63,
+    "abs_diff": 948.16,
+    "explanation": "Item TXN-024186 (Settlement / Intercompany): Classified as TIMING. Posting lag of 0 days observed relative to value date.",
+    "recommended_action": "MONITOR SETTLEMENT: Allow 24-48h settlement window to clear; verify counterparty confirmation.",
+    "evidence": [
+      "Posting lag of 0 days observed relative to value date."
+    ],
+    "assigned_owner": "Reconciliation Operations",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024184",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 2224.6,
+    "abs_diff": 940.01,
+    "explanation": "Item TXN-024184 (Corp / Vendor): Classified as MAPPING_ERROR. Account mapping table version is 65 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 65 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024173",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 9785.19,
+    "abs_diff": 472.22,
+    "explanation": "Item TXN-024173 (Clearing / Vendor): Classified as MAPPING_ERROR. Account mapping table version is 3 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 3 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024111",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 2925.49,
+    "abs_diff": 2925.49,
+    "explanation": "Item TXN-024111 (Data Svcs / Accruals): Classified as MAPPING_ERROR. Account mapping table version is 121 days old (exceeds 90-day governance refresh SLA). Manual journal booking compounded mapping discrepancy.",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 121 days old (exceeds 90-day governance refresh SLA).",
+      "Manual journal booking compounded mapping discrepancy."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024124",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 564.56,
+    "abs_diff": 564.56,
+    "explanation": "Item TXN-024124 (Corp / Vendor): Classified as MAPPING_ERROR. Account mapping table version is 139 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 139 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024237",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 5583.3,
+    "abs_diff": 4048.54,
+    "explanation": "Item TXN-024237 (Settlement / Intercompany): Classified as MAPPING_ERROR. Account mapping table version is 134 days old (exceeds 90-day governance refresh SLA). Manual journal booking compounded mapping discrepancy.",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 134 days old (exceeds 90-day governance refresh SLA).",
+      "Manual journal booking compounded mapping discrepancy."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024234",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 413.46,
+    "abs_diff": 413.46,
+    "explanation": "Item TXN-024234 (Intl / Vendor): Classified as MAPPING_ERROR. Account mapping table version is 92 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 92 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024232",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 9914.85,
+    "abs_diff": 527.59,
+    "explanation": "Item TXN-024232 (Settlement / Intercompany): Classified as MAPPING_ERROR. Account mapping table version is 177 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 177 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024257",
+    "break_type": "duplicate",
+    "priority": "CRITICAL",
+    "amount_gl": 3132.15,
+    "abs_diff": 3132.15,
+    "explanation": "Item TXN-024257 (Clearing / Vendor): Classified as DUPLICATE. Matching vendor ID and monetary amount identified within trailing 7 days. Total financial exposure at risk: $3,132.15.",
+    "recommended_action": "HOLD & ESCALATE: Quarantine transaction. Inspect vendor payment ledger for duplicate invoice number and reverse duplicate voucher.",
+    "evidence": [
+      "Matching vendor ID and monetary amount identified within trailing 7 days.",
+      "Total financial exposure at risk: $3,132.15."
+    ],
+    "assigned_owner": "Accounts Payable & Treasury Operations",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024226",
+    "break_type": "rounding_fx",
+    "priority": "MEDIUM",
+    "amount_gl": 25115.17,
+    "abs_diff": 1.32,
+    "explanation": "Item TXN-024226 (Settlement / FX Reval): Classified as ROUNDING_FX. Account mapping table version is 159 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 159 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024205",
+    "break_type": "duplicate",
+    "priority": "CRITICAL",
+    "amount_gl": 1695.86,
+    "abs_diff": 1695.86,
+    "explanation": "Item TXN-024205 (Settlement / Vendor): Classified as DUPLICATE. Matching vendor ID and monetary amount identified within trailing 7 days. Total financial exposure at risk: $1,695.86.",
+    "recommended_action": "HOLD & ESCALATE: Quarantine transaction. Inspect vendor payment ledger for duplicate invoice number and reverse duplicate voucher.",
+    "evidence": [
+      "Matching vendor ID and monetary amount identified within trailing 7 days.",
+      "Total financial exposure at risk: $1,695.86."
+    ],
+    "assigned_owner": "Accounts Payable & Treasury Operations",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024208",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 616.17,
+    "abs_diff": 502.98,
+    "explanation": "Item TXN-024208 (Settlement / Fees): Classified as MAPPING_ERROR. Account mapping table version is 127 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 127 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024195",
+    "break_type": "missing_feed",
+    "priority": "CRITICAL",
+    "amount_gl": 18523.22,
+    "abs_diff": 18523.22,
+    "explanation": "Item TXN-024195 (Settlement / Intercompany): Classified as MISSING_FEED. Source system feed missing full transaction record of $18,523.22.",
+    "recommended_action": "FEED RE-TRANSMISSION: Alert IT Ingestion Operations to trigger batch feed replay from source system.",
+    "evidence": [
+      "Source system feed missing full transaction record of $18,523.22."
+    ],
+    "assigned_owner": "Finance Technology Ingestion Support",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024194",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 885.3,
+    "abs_diff": 543.56,
+    "explanation": "Item TXN-024194 (Settlement / Fees): Classified as MAPPING_ERROR. Account mapping table version is 99 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 99 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024221",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 2582.5,
+    "abs_diff": 2582.5,
+    "explanation": "Item TXN-024221 (Settlement / Accruals): Classified as MAPPING_ERROR. Account mapping table version is 148 days old (exceeds 90-day governance refresh SLA). Manual journal booking compounded mapping discrepancy.",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 148 days old (exceeds 90-day governance refresh SLA).",
+      "Manual journal booking compounded mapping discrepancy."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024306",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 12934.4,
+    "abs_diff": 717.51,
+    "explanation": "Item TXN-024306 (Clearing / Vendor): Classified as MAPPING_ERROR. Account mapping table version is 137 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 137 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024307",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 11699.81,
+    "abs_diff": 610.37,
+    "explanation": "Item TXN-024307 (Clearing / Vendor): Classified as MAPPING_ERROR. Account mapping table version is 125 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 125 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  },
+  {
+    "transaction_id": "TXN-024339",
+    "break_type": "mapping_error",
+    "priority": "MEDIUM",
+    "amount_gl": 5360.93,
+    "abs_diff": 2621.93,
+    "explanation": "Item TXN-024339 (Settlement / Vendor): Classified as MAPPING_ERROR. Account mapping table version is 140 days old (exceeds 90-day governance refresh SLA).",
+    "recommended_action": "REMEDIATE MAPPING: Submit chart-of-accounts mapping change request to Finance Master Data Governance.",
+    "evidence": [
+      "Account mapping table version is 140 days old (exceeds 90-day governance refresh SLA)."
+    ],
+    "assigned_owner": "Finance Master Data Management / GL Team",
+    "auto_clearing_eligible": false
+  }
+]
